@@ -16,7 +16,7 @@ use App\Http\Controllers\EpisodeDisplayTrailler;
 use App\Http\Controllers\searchController;
 
 
-
+     
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/authentification', [AuthController::class, 'index'])->name('authentification');
